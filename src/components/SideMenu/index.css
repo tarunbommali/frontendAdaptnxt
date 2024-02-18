@@ -1,0 +1,16 @@
+.side-menu-link {
+  list-style: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 15px 5px;
+}
+
+.icon {
+  margin: 0px 5px;
+  color: #525252;
+}
+
+.active-side-option {
+  background-color: #e6f7ff;
+  color: #84a6ff;
+}

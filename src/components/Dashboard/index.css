@@ -1,0 +1,77 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+
+  transition: left 0.3s ease;
+  width: 250px;
+
+  margin: 0px;
+}
+
+.dashboard {
+  background-color: #f0f2f5;
+  width: 100%;
+  padding: 48px;
+}
+
+.order-status-list {
+  display: flex;
+}
+
+.order-status-link {
+  list-style: none;
+  padding: 10px 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 44px;
+}
+
+.active-route {
+  color: #74c4ff;
+  background-color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.close {
+  color: #e1e1e1;
+  margin-left: 5px;
+}
+
+.route-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.orders-container-table {
+  height: 400px;
+  background-color: #ffffff;
+  padding: 5px 12px;
+}
+
+.setting {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
