@@ -23,6 +23,8 @@
 .header-link {
   list-style: none;
   padding: 0px 15px;
+  background-color: transparent;
+  color: #8b8c8b;
 }
 
 .toggle-button {

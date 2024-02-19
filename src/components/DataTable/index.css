@@ -2,9 +2,112 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
 }
 
 table {
   width: 100%;
   padding: 10px 15px;
+  text-align: center;
+  border-bottom: 2px solid #efefef;
+}
+
+thead {
+  border-bottom: 1px solid black;
+  background-color: #fafafa;
+  margin-bottom: 5px;
+}
+th {
+  background-color: #fafafa;
+  color: #4c5c6a;
+  padding: 13px 5px;
+}
+
+.hr-line {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+}
+.row {
+  margin: 10xp 20px;
+  padding: 10px 20px;
+}
+
+.order-no {
+  color: #54a4ff;
+  font-weight: 400;
+}
+
+.status-Pending {
+  color: #57c737;
+  background-color: #f6ffed;
+  border: 1px solid #57c737;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.status-complete {
+  color: green; /* Color for complete status */
+}
+
+.status-incomplete {
+  color: red; /* Color for incomplete status */
+}
+
+.action {
+  border: 1px solid #e3e3e3;
+  padding: 3px 5px;
+}
+
+.th-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.span-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 10px;
+  color: #bfbfbf;
+}
+
+.current-page {
+  border-radius: 3px;
+  border: 1px solid #5188ff;
+  color: hsl(221, 100%, 66%);
+  padding: 5px;
+  margin: 10xp 25px;
+}
+.arrow {
+  padding: 5px;
+}
+.pagination {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: flex-end;
+}
+.pagination-button {
+  padding: 3px 5px;
+  border: 1px solid #4c5c6a;
+  outline: none;
+  color: #4c6172;
+  border-radius: 5px;
+  margin: 10xp px;
+}
+
+.plus {
+  margin-right: 15px;
 }

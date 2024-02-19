@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# AdaptNXT Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a React-based web application that recreates the interface shown in the provided image. It allows users to view and manage orders through a user-friendly dashboard.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- React JS
+- CSS for styling
+- Netlify for deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Running the Project Locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project locally, follow these steps:
 
-### `npm test`
+1. Clone this repository to your local machine using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+3. Install dependencies using npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open your web browser and visit http://localhost:3000 to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components
 
-### `npm run eject`
+- **Dashboard**: The main component that serves as the container for other components. It includes a navigation bar with an "Order" button and a settings button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Orders**: A component responsible for displaying orders. It includes a navigation bar with different order statuses and options to import orders, accept orders, and print orders. It also includes a refresh button and a table displaying order data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **DataTable**: A component responsible for rendering the table of order data. It receives an array of orders as props and dynamically generates table rows based on the data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Header**: A component representing the header section of the application. It includes a logo, a menu button for toggling the side menu, and several header links.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **SideMenu**: A component representing the side menu of the application. It includes links to different sections of the dashboard, such as Dashboard, Inventory, Orders, Shipping, and Channel.
 
-## Learn More
+- **NotFound**: A component to be rendered when a user navigates to a non-existent route.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is deployed on Netlify. You can access the deployed site [here](https://frontendadaptnxt.netlify.app/).
 
-### Code Splitting
+## Additional Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- This project was created as part of an assignment for AdaptNXT.
+- Dummy data is used for demonstration purposes.
+- Feel free to explore and customize the code to fit your requirements.
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Created by Tarun Bommali
+- Contact: btaruntej143@gmail.com
